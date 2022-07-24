@@ -22,35 +22,59 @@
   <main>
         <div class="container">
 
-            <img src="images/illustration-hero.svg">
+            <img class="illustration" src="images/illustration-hero.svg">
 
-            <h1>Order Summary</h1>
+            <div class="details-container">
+                
+                <div style="width: 300px;">
+                    <h1>Order Summary</h1>
+                    <p style="color: hsl(224, 23%, 55%);">You can now listen to millions of songs, audiobooks, and podcasts on any 
+                    device anywhere you like!</p>
+                </div>
+       
 
-            <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-            device anywhere you like!</p>
+                <div style="display: flex; justify-content: space-evenly; 
+                align-items: center; width: 100%;
+                padding: 20px 0; background-color:  hsl(225, 100%, 98%);
+                border-radius: 8px;">
 
-            <div>
+                    <div style="display: flex; align-items: center;">
+                        <img src="images/icon-music.svg" alt="">
+                    </div>
+                    
+                    <div style="display: flex;
+                    flex-direction: column;">
+                        <div style="font-weight: bold;">Annual Plan</div>
+                        <div style="color: hsl(224, 23%, 55%);">$59.99/year</div>
+                    </div>
+                    
+                    <div>
+                        <a href="" style="color:  hsl(245, 75%, 52%);
+                        font-weight: bold;">Change</a>
+                    </div>           
+                </div>
 
-                Annual Plan
-                $59.99/year
 
-                Change                
+                <div style="margin: 10px auto; width: 100%;">
+                    <button type="button" style="width: 100%; padding: 15px 0;
+                    border: none; background-color: hsl(245, 75%, 52%); color: white;
+                    font-size: 16px; font-weight: bold; border-radius: 8px;">
+                    Proceed to Payment
+                    </button>
+                </div>
+                
+                
+                <div style="margin: 20px 0; color: hsl(224, 23%, 55%);
+                font-weight: bold;">
+                    Cancel Order             
+                </div>
             </div>
-
-
-            <div>
-                <button type="button">
-                Proceed to Payment
-                </button>
-            </div>
-            
-            
-            Cancel Order
         </div>
 
-    <div class="made-by">
+
+    <div class="made-by" style="margin-top: 20px;">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Your Name Here</a>.
+          Coded by <a href="#">@pauldotio</a> on twitter.
     </div>
     
   </main>
