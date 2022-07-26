@@ -46,6 +46,7 @@ h1 {
 
 p {
     line-height: 24px;
+    color: hsl(224, 23%, 55%)
 }
 
 .pricing-container {
